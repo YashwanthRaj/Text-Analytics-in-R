@@ -10,10 +10,12 @@ We discussed about word clouds, sentiment analysis, and preprocessing as useful 
 The text must be properly preprocessed as well. The results were clearer when punctuation was removed, words were lowercased, and stemming was applied. In particular, stemming proved useful. The word cloud produced after stemming seemed to be a better representation of the text since it better conveyed the meaning of the words. Furthermore, we found that certain visualization styles can be difficult or less useful for text analysis, including the cluster dendrogram, for which we were unable to remove enough words to create a plot that was usable. This at least illustrated the intricacy of large paragraphs in a very sparse manner. 
 
 Here we just restate the important methods we used for analyzing the text from each library. This is not comprehensive, but you can see all the methods used throughout this write-up anyways. 
+
 tm
 ● VCorpus 
 ● tm_map
-● DocumentTermMatrix ● findFreqTerms 
+● DocumentTermMatrix 
+● findFreqTerms 
 
 quanteda
 ● docfreq 
